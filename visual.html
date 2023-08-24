@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="zoom/zoom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body>
+<div class="navbar">
+        <a href="visual.html" class="logo-link">
+        <img src="zoom/logo.png" alt="Logo" class="logo-img">
+        </a>
+
+  <div class="dropdown">
+        <div id="filter-button" class="hamburger-menu">
+        <img src="zoom/burger-menu.svg" alt="Hamburger Menu">
+        </div>
+
+  <div id="filter-dropdown-container" class="dropdown-content">
+    <a href="#" class="filter-option">All</a>
+    <a href="#" class="filter-option">Project X</a>
+    <a href="#" class="filter-option">Earth</a>
+    <!--<a href="#" class="filter-option">Portraits</a>-->
+   <!-- <a href="#" class="filter-option">The Office</a>-->
+    </div>    
+  </div>
+</div>
+    
+<div id="container">
+  <div id="image-grid"></div>
+  <div id="zoom-controls">
+  <div id="zoom-in-icon" class="zoom-icon" onclick="zoomIn()">+</div>
+  <div id="zoom-out-icon" class="zoom-icon" onclick="zoomOut()">-</div>
+  </div>
+</div>
+<!-- Add this script tag after the zoom-controls div -->
+ <!--   <script>
+    window.addEventListener('DOMContentLoaded', function() {
+    var zoomInButton = document.getElementById('zoom-in-icon');
+    var zoomOutButton = document.getElementById('zoom-out-icon');
+    zoomInButton.classList.add('highlight');
+    zoomOutButton.classList.add('highlight');
+    });
+    </script>
+-->
+
+<div id="lightbox">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content">
+    <img src="" alt="Lightbox Image" id="lightbox-image">
+    </div>
+</div>
+
+<script src="zoom/zoom.js"></script>
+   <!-- 
+<script>
+  // Auto-filter "Project X" on page load
+    window.addEventListener('load', function() {
+    filterImages("Project X");
+    });
+</script>
+    -->
+</body>
+</html>
+
+  
