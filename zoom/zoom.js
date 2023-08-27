@@ -134,7 +134,7 @@ function getImageTags(index) {
   // Assign tags to each image based on their index
   if (
     index === 18 || index === 19 || index === 30 || index === 35 || index === 36 || index === 37 || index === 38 || index === 39 || index === 40 || index === 41 || index === 42 || index === 43 || index === 44 || index === 46 || index === 47 || index === 48 || index === 49 || index === 51 || index === 52 || index === 53 || index === 54 || index === 55 || index === 56 || index === 57 || index === 58 || index === 59 || index === 60 || index === 62 || index === 63 || index === 64 || index === 65 || index === 69 || index === 90 || index === 91 || index === 93 || index === 75 || index === 81 || index === 97 ||
-    index === 89 || index === 101 || index === 102 || index === 103 || index === 82 || index === 85 || index === 86 || index === 61 || index === 45 || index === 22 || index === 23 
+    index === 89 || index === 101 || index === 102 || index === 103 || index === 82 || index === 85 || index === 86 || index === 61 || index === 45
   ) {
     return "Project X,";
   }
